@@ -1,0 +1,139 @@
+*{ margin: 0px; padding: 0px;}
+
+html, body{
+    min-height: 100vh;  
+}
+
+nav img{
+    border-radius: 30%;
+}
+
+header{
+    width: 100%;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, rgba(194, 238, 61, 0.796), rgb(78, 248, 146), rgb(9, 192, 112));
+    width: 100%;
+    height: 140px;
+    
+    
+}
+
+
+nav a{
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 16px 16px 13px 16px;
+    text-shadow: 1px 1px 0px rgba(5, 5, 5, 0.716);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+    
+    
+}
+
+/*estiliza o paragrafo de acordo com a imagem*/
+section{
+    font-size: 2.5vw;
+    font-family:cursive, Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 15vh;
+    padding-bottom: 11vh;
+    line-height: 2em;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+section.imagemfundo1{
+    background-color: rgba(0, 0, 0, 0.829);
+    color: #ffff;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.418);
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 80px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.527);
+    border-radius: 5px;
+      
+}
+
+section.imagemfundo1>p{
+    text-shadow: 1px 1px 0px rgba(8, 2, 2, 0.716);
+    background-color: rgba(5, 0, 0, 0.177);
+    display: inline-block;
+    padding: 5px;
+    
+        
+}
+
+section#img1{ 
+    background-image: url('croche-2.jpg');
+    background-position: right ;
+    background-size: cover;
+    
+    
+}
+
+.slogan-gradient {
+    background-image: linear-gradient(to right, rgb(194, 238, 61), rgb(108, 178, 229), turquoise);
+    color: rgba(115, 107, 107, 0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-shadow: 1px 1px 0px rgba(5, 5, 5, 0.349);
+    background-color: #dcf6b6b4;
+    font-size: 40px;
+    font-family: cursive;
+    padding: 20px;
+  }
+  
+.carrosel{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 80px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.527);
+    border-radius: 5px;
+}
+.carrosel h1{
+    text-shadow: 1px 1px 0px rgba(8, 2, 2, 0.716);
+    
+    display: inline-block;
+    padding: 5px;
+    
+}
+.col{
+    width: 300px;
+    height: 400px;
+    margin: 40px;
+    
+}
+.card>img:hover{
+    transform: scale(1.01);
+
+    
+}
+
+.corpodocard{
+    background-color: rgb(172, 245, 213);
+}
+.corpodocard:hover{
+    transform: scale(1.05);
+}
+footer{
+    background-color: rgb(7, 222, 122);
+    font-size: 1.5em;
+    padding: 2px;
+
+}
+
+footer>p{
+    margin-left: 30px;
+}
+
+footer>img{
+    width: 40px;
+    margin-left: 10%;
+}
